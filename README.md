@@ -1,55 +1,55 @@
 ### study-of-basic-gates
 
-**AIM:** 
+*AIM:* 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
 
-**Equipments Required:**
+*Equipments Required:*
 
 Software – Quartus prime 
 
-**Theory**
+*Theory*
 
 Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
 AND gate OR gate NOT gate NAND gate NOR gate Ex-OR gate Ex-NOR gate
 
-**AND gate**
+*AND gate*
 
 The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB
 Y= A.B
 
-**OR gate** 
+*OR gate* 
 
 The OR gate is an electronic circuit that gives a high output (1) if one or more of its inputs are high. A plus (+) is used to show the OR operation.
 Y= A+B
 
-**NOT gate**
+*NOT gate*
 
 The NOT gate is an electronic circuit that produces an inverted version of the input at its output. It is also known as an inverter. If the input variable is A, the inverted output is known as NOT A. This is also shown as A' or A with a bar over the top, as shown at the outputs.
 Y= A'
 
-**NAND gate**
+*NAND gate*
 
 This is a NOT-AND gate which is equal to an AND gate followed by a NOT gate. The outputs of all NAND gates are high if any of the inputs are low. The symbol is an AND gate with a small circle on the output. The small circle represents inversion.
 Y= (AB)’
 
-**NOR gate**
+*NOR gate*
 
 This is a NOT-OR gate which is equal to an OR gate followed by a NOT gate. The outputs of all NOR gates are low if any of the inputs are high. The symbol is an OR gate with a small circle on the output. The small circle represents inversion.
 Y= (A+B)’
 
-**Ex-OR gate**
+*Ex-OR gate*
 
 The 'Exclusive-OR' gate is a circuit which will give a high output if either, but not both of its two inputs are high. An encircled plus sign (⊕) is used to show the Ex-OR operation.
 Y= A⊕B
 
-**Ex-NOR gate**
+*Ex-NOR gate*
 
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-**Procedure** 
+*Procedure* 
 
 1.	Type the program in Quartus software.
 
@@ -62,36 +62,30 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
+*PROGRAM*
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by:G. Thiravia Raja Ragahavan RegisterNumber: 212224050055
- ```
-module exp1(A,B,C,D,E,F,G,H,I);
-input A,B;
-output C,D,E,F,G,H,I;
-and(C,A,B);
-or(D,A,B);
-not(E,A);
-nand(F,A,B);
-nor(G,A,B);
-xor(H,A,B);
-xnor(I,A,B);
-endmodule
-
-```
+ Developed by: AAAKIL AHAMED S
+ RegisterNumber: 212224040002
  
-**Logic symbol & Truthtable**
-
-**RTL realization Output:** 
-![Screenshot 2025-04-25 234847](https://github.com/user-attachments/assets/33aaa97f-0e93-44cb-b6fc-946b8e350489)
+*Logic symbol & Truthtable*
 
 
-**RTL**
-![image](https://github.com/user-attachments/assets/43b0ef4d-aa59-425b-a932-4eaea294e316)
+
+![Screenshot 2025-04-23 211218](https://github.com/user-attachments/assets/6e114b67-2106-45f6-8cb2-ec8c8706f4e4)
+
+*RTL realization Output:* 
+
+![Screenshot 2025-04-23 211210](https://github.com/user-attachments/assets/18fa7754-599d-4957-a881-236cff13344a)
 
 
-**Result:**
+*RTL*
+![Screenshot 2025-04-23 211201](https://github.com/user-attachments/assets/9ce4458e-f0ac-4914-b94d-d8c5551de6e3)
 
 
+
+
+*Result:*
+
+Thus the different digital IC's are studied and truthtable for different logic gates are verified.
